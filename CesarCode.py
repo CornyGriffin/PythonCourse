@@ -15,8 +15,8 @@ def cesarcode(ll, l_key):
     return new_ll
 
 
-letters = input("Text>>> ")
-key = int(input("Key>>> "))  
+letters = input("Text>> ")
+key = int(input("Key>> "))  
 
 for letter in letters:
     new_letter = cesarcode(letter, key)
